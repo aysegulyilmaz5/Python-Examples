@@ -1,1 +1,1 @@
-# split-and-strip
+# substring
