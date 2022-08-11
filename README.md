@@ -1,1 +1,1 @@
-# workshops
+# split-and-strip
