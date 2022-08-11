@@ -1,7 +1,14 @@
-n = int(input("Please enter number:"))
+lights = ["red","yellow","green"]
 
+currentLight = lights[1]
 
-for row in range (1,n):
-  for column in range(1,row+1):
-    print("*",end = ' ')
-  print("")
+print(currentLight)
+
+if currentLight == "red":
+  print("STOP!")
+
+if currentLight == "yellow":
+  print("READY!")
+
+if currentLight == "green":
+  print("GO!")
